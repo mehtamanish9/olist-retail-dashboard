@@ -1,0 +1,6 @@
+﻿*.csv
+__pycache__/
+*.pyc
+*.db-wal
+*.db-shm
+.streamlit/
