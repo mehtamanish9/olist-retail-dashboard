@@ -33,31 +33,4 @@ olist-dashboard/
 └── README.md
 ```
 
----
 
-## 🚀 Setup & Running Locally
-
-1. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **(Optional) Rebuild the database from CSVs**:
-   ```bash
-   python build_placeholder_db.py
-   ```
-
-3. **Launch the dashboard**:
-   ```bash
-   streamlit run app.py
-   ```
-   Open [http://localhost:8501](http://localhost:8501) in your browser.
-
----
-
-## ☁️ Deployment (Streamlit Community Cloud)
-
-1. Push this repository to GitHub.
-2. Visit [share.streamlit.io](https://share.streamlit.io) and log in with your GitHub account.
-3. Click **New app**, select the repository, branch, and set `app.py` as the main file path.
-4. Click **Deploy**.
