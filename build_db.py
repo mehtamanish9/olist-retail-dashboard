@@ -2,7 +2,7 @@
 Builds olist.db from the real Olist Brazilian E-Commerce CSVs.
 
 Place all 9 CSV files in this folder, then run:
-    python build_placeholder_db.py
+    python build_db.py
 
 Tables created:
     customers, sellers, products, orders,
